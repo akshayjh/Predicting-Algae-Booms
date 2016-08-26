@@ -24,7 +24,7 @@ best <- function(state, outcome) {
     } else if (outcome == "heart failure") {
         17
     } else {
-        23
+        25
     }
     
     data[, col] <- suppressWarnings(as.numeric(levels(data[, col])[data[, col]]))
